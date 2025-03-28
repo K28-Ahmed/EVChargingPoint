@@ -17,7 +17,7 @@ The primary problem our app attempts to address is the problem EV owners face wh
 6)Trip Planning: Users can plan extended trips by identifying charging stations along the way, so there is uninterrupted travel.
 7)These functionalities are designed to provide users with a convenient and seamless experience when looking for charging points.
 
-##Alternatives Considered
+## Alternatives Considered
 Some alternatives were also considered during the planning phase to ensure the app offers the best solutions:
 
 Analysis of Current Competitors: We went through competing applications available in the market in order to understand their weaknesses and strengths so that we can create a more friendly app.
@@ -39,7 +39,7 @@ Home Charging Preference: Users may choose to charge their cars at home rather t
 
 Cybersecurity Risks: The app can be vulnerable to hacking or data loss, undermining user information and privacy.
 
-##Project Scope
+##P roject Scope
 The creation of the mobile app, its integration with the key data sources, and its communication with other systems, such as maps and payment systems, is what the project will focus on. Key aspects are as follows:
 
 App Development: The main user interface will be in the shape of a mobile app.
