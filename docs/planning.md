@@ -30,7 +30,7 @@ Cost Information: Providing transparent information on any charges for the use o
 
 Reservation Feature: Users might appreciate booking a charging place in advance, especially in busy locations.
 
-##Potential Risks
+## Potential Risks
 A set of risks is needed for the successful execution of the project:
 
 Charging Infrastructure Insufficiency: With increased EV consumers, the demand for charge stations might exceed the supply, and stations might get congested.
@@ -39,7 +39,7 @@ Home Charging Preference: Users may choose to charge their cars at home rather t
 
 Cybersecurity Risks: The app can be vulnerable to hacking or data loss, undermining user information and privacy.
 
-##P roject Scope
+## Project Scope
 The creation of the mobile app, its integration with the key data sources, and its communication with other systems, such as maps and payment systems, is what the project will focus on. Key aspects are as follows:
 
 App Development: The main user interface will be in the shape of a mobile app.
