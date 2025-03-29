@@ -1,4 +1,4 @@
-Find EV charging points
+           ## Find EV charging points
 
 This project makes it easier for users to find electric vehicle (EV) charging points using data from the Bristol Open Data platform. The dataset provides key information, like the locations of charging stations, who made the chargers, and whether they’re in public parking lots. Our aim is to offer a simple and user-friendly tool that helps drivers quickly locate charging stations, making EV travel more convenient.
 
