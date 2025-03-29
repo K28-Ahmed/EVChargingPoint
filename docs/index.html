@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EV Charging Stations Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap">
+    
+    <script src="script.js" defer></script>
+    <script>
+      function renderChargingStations(data) {
+        let resultSection = document.getElementById("charging-results");
+        let stations = data.data.features;
+        stations.forEach(station => {
+          let row = document.createElement('tr');
+          let attributes = station.properties;
+          let cell = document.createElement('td');
+          cell.innerHTML = attributes.name;
+          row.appendChild(cell);
+          cell = document.createElement('td');
+          cell.innerHTML = attributes.type;
+          row.appendChild(cell);
+          resultSection.appendChild(row);
+        });
+      }
+
+      function initiateSearch(query) {
+        let encodedQuery = encodeURIComponent(query);
+        let apiUrl = `https://api.openchargemap.io/v3/poi/?output=json&countrycode=GB&maxresults=50&client=myclient&verbose=true&compact=false&location=${encodedQuery}`;
+        fetch(apiUrl, { method: 'GET', headers: { 'Accept': 'application/json' }})
+        .then(response => response.json())
+        .then(renderChargingStations);
+      }
+
+    </script>
+  </head>  
+  <body>
+    <div class="container">
+      <header>
+        <span class="site-title"><a href="index.html">EV Charging Stations</a></span>
+        <form class="search-form" action="index.html">
+          <input name="searchquery" placeholder="Search for charging points..." type="text">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </header>
+      <nav class="w3-container w3-margin">
+        <button onclick="location.href='map.html'" class="w3-button w3-block w3-teal w3-margin-top">View on Map</button>
+        <button onclick="location.href='type.html'" class="w3-button w3-block w3-teal w3-margin-top">Filter by Type</button>
+        <button onclick="location.href='chart.html'" class="w3-button w3-block w3-teal w3-margin-top">Maintainers Info</button>
+      </nav>
+      <main>
+        <table class="w3-table w3-bordered">
+          <thead>
+            <tr><th>Station Name</th><th>Charging Type</th></tr>
+          </thead>
+          <tbody id="charging-results">
+          </tbody>
+        </table>
+        <script>
+          // Fetch the search term from the URL query parameters
+          var urlParams = new URLSearchParams(location.search);
+          var searchQuery = urlParams.get('searchquery');
+          initiateSearch(searchQuery);
+        </script>
+      </main>
+    </div>
+  </body>
+</html>
