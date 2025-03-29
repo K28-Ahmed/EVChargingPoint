@@ -38,11 +38,7 @@ TODO: Describe each use case (at least one per team member).
 Description The council representative sees the status of charging points in the city, using the app to review usage statistics and determine whether more stations need to be added or if maintenance is needed. |
 | **Actors** | Actors Council Representative|
 | **Assumptions**  The representative can see data of all charging stations in the app. |
-| **Steps** |Steps 1. Open the app and log in.
-2. Visit the dashboard to view real-time statistics for all charging stations.
-3. Analyze usage data, including active stations, demand trends, and outages.
-4. Make conclusions from the data to support decisions about infrastructure maintenance or upgrades.
-Variations |
+| **Steps** |Log in, view station statuses, analyze usage data, identify trends, and plan for improvements or maintenance.|
 | **Variations** | The representative might need to filter data by location, time, or station type.|
 | **Non-functional** | The application must have a user-friendly, easy-to-read interface with filters for extracting data at once. It must also be capable of handling large data without slowing down.|
 | **Issues** | Keeping the data continuously updated and reflecting the real status of stations. It might also be challenging to examine trends for a large number of stations.|
