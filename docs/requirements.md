@@ -34,16 +34,25 @@ TODO: Describe each use case (at least one per team member).
 
 |  UC2| USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
-| **Description** | Charging Station Usage
-Description The council representative sees the status of charging points in the city, using the app to review usage statistics and determine whether more stations need to be added or if maintenance is needed. |
+| **Description** |The representative analyzes station information to estimate use and identify maintenance needs.|
 | **Actors** | Actors Council Representative|
-| **Assumptions**  The representative can see data of all charging stations in the app. |
-| **Steps** |Log in, view station statuses, analyze usage data, identify trends, and plan for improvements or maintenance.|
-| **Variations** | The representative might need to filter data by location, time, or station type.|
-| **Non-functional** | The application must have a user-friendly, easy-to-read interface with filters for extracting data at once. It must also be capable of handling large data without slowing down.|
-| **Issues** | Keeping the data continuously updated and reflecting the real status of stations. It might also be challenging to examine trends for a large number of stations.|
+| **Assumptions**  | The representative can view data on all charging stations in the application. |
+| **Steps** |Log in, view station status, review data, identify trends, and arrange maintenance or improvement.|
+| **Variations** | Data is filtered by location, date/time, or station type to support analysis.|
+| **Non-functional** | The application needs to be intuitive, responsive, and handle large sets of data efficiently.|
+| **Issues** | Giving accurate, up-to-date information and managing trends across a large number of stations.|
 
 
+|  UC3| USE-CASE NAME | 
+| -------------------------------------- | ------------------- |
+| **Description** |The technician uses the app to find, service, and update stations requiring work.|
+| **Actors** | Charging Station Technician|
+| **Assumptions**  |Technicians have access to all station information for servicing and repair.|
+| **Steps** |Log in, find stations needing service, visit, replace batteries, fix issues, and update app.|
+| **Variations** |tCertain stations may require more extensive servicing than battery replacement.|
+| **Non-functional** | The app must be user-friendly and update station status quickly.
+Issues|
+| **Issues** | Real-time updates and maintenance history tracking delays can create confusion.|
 
 TODO: Your Use-Case diagram should include all use-cases.
 
