@@ -1,0 +1,94 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #181818;
+    color: #eaeaea;
+}
+
+.layout-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+}
+
+header {
+    background-color: #2a2a2a;
+    padding: 18px;
+}
+
+.header-title a {
+    color: #eaeaea;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 12px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: #eaeaea;
+}
+
+button[type="submit"] {
+    background-color: #666;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+button[type="submit"] i {
+    color: #eaeaea;
+}
+
+nav {
+    background-color: #2a2a2a;
+    padding: 18px;
+}
+
+nav button {
+    margin-bottom: 12px;
+}
+
+main {
+    padding: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #666;
+    padding: 12px;
+}
+
+thead {
+    background-color: #444;
+    color: #eaeaea;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #333;
+}
+
+.w3-button {
+    background-color: #1e90ff;
+    color: #eaeaea;
+}
+
+.w3-button:hover {
+    background-color: #4682b4;
+}
