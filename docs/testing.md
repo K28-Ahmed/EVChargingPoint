@@ -11,18 +11,23 @@ UCID1 - Running the app - The app should run smoothly with no lag. If it fails t
 If we experience a failed test, that will mean that our app is not fully functionable for our users need.
 Test Runs
 TODO: For each test described above, indicate the current status. 
-
 Create a requirements traceability matrix to validate the completeness of the product.
+T1-UCID1 - Run smoothly succesfully no issues - Our Userface should run smoothly - User Interface - Pass
 
-| Use-Case ID | Requirement ID | Test Case | Status |
-|T1|UCID1|Run smoothly succesfully no issues|OurUserface should run smoothly|Pass|
-|T2|UCID2|Should Interact and work wellOur buttons should all work|User Interface||Fail|
-|T3|UCID3|Clear map should work and meet their needs as stated A detailed map should come up|Integration||Pass|
-|T4|UCID4|functionable search bar We should expect a working search bar helping users find Chargingpoints|Integration|
-| ----------- | -------------- | --------- | ------ |
-| ----------- | -------------- | --------- | ------ |
-| ----------- | -------------- | --------- | ------ |
-| ----------- | -------------- | --------- | ------ |
+T2 - 1- UCID2 - Should Interact and work well - Our buttons should all work - User Interface - Fail - Our map button works but our other button does not work as it comes up with a error.
+
+T3 - UCID3 - Clear map should work and meet their needs as stated - A detailed map should come up - Integration - Pass - A map comes up clear for the user.
+
+T4 - UCID4 - functionable search bar - We should expect a working search bar helping users find Charging points - Integration - Failed/Pass - Map comes up but not the infomation which could be becase off the API.
+
+T5 - UCID5 - Clear layed out table - we shhould see a clear working table with data - Usability - pass -
+
+T6 - UCID6 - Map fully Functionable - we should expect a fully funactionabl map - Usability - pass -
+
+T7 - UCID7 - Map Code - Functionable map on a web brosewr- A browser of map should come up - Usability - Functional - Pass
+
+T8 - UCID7- Index code - Functionable home page - A perfect page with clear layout and understanding to give the user a suitable page to ineract with - Usability - Pass
+
 
 
 TODO: Add rows for each test, current status is eg. pass/fail
