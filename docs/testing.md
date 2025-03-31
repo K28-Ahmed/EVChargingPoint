@@ -15,10 +15,10 @@ TODO: For each test described above, indicate the current status.
 Create a requirements traceability matrix to validate the completeness of the product.
 
 | Use-Case ID | Requirement ID | Test Case | Status |
-| T1 | UCID1  | Run smoothly succesfully no issues | OurUserface should run smoothly  | Pass |
-| T2 | UCID2 | Should Interact and work well - Our buttons should all work| User Interface| | Fail |
-| T3 | UCID3  | Clear map should work and meet their needs as stated - A detailed map should come up|Integration| |Pass|
-| T4 | UCID4 |functionable search bar We should expect a working search bar helping users find Chargingpoints|Integration|
+|T1|UCID1|Run smoothly succesfully no issues|OurUserface should run smoothly|Pass|
+|T2|UCID2|Should Interact and work wellOur buttons should all work|User Interface||Fail|
+|T3|UCID3|Clear map should work and meet their needs as stated A detailed map should come up|Integration||Pass|
+|T4|UCID4|functionable search bar We should expect a working search bar helping users find Chargingpoints|Integration|
 | ----------- | -------------- | --------- | ------ |
 | ----------- | -------------- | --------- | ------ |
 | ----------- | -------------- | --------- | ------ |
