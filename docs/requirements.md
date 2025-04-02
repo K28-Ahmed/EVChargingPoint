@@ -60,14 +60,31 @@ TODO: Your Use-Case diagram should include all use-cases.
 
 ## Software Requirements Specification
 ### Functional requirements
-TODO: create a list of functional requirements. 
-    e.g. "The system shall ..."
-    Give each functional requirement a unique ID. e.g. FR1, FR2, ...
-    Indicate which UC the requirement comes from.
+ 
+FR1: The System should show a clear marking for all the ev ports on the map
 
+FR2: The system should require access to the users location
+
+FR3: They system should show the availibilty on the ports that the user is looking at
+
+FR4: The system should show the price of how much it cost to charge the vehicle
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
-Indicate which UC the requirement comes from.
+NFR1: The app should quickly respond to the user when used (performance efficiency) 
+
+NFR2: The app should clearly show all the points with suitable sized marking (usability)
+
+NFR3: The app should be usable on chrome internet browsers (compatibillity)
+
+NFR4: The app should have a suitable default location if there is no location provided by the user (reliability)
+
+NFR5: The app should be update to make sure there are working ev ports on all the marked locations on the app (functional suitability)
+
+NFR6: The app should respond to the users request in quick timing (performance efficiency)
+
+NFR7: The app should be able to be used on mobile as well as other devices (portability)
+
+NFR8:The app should should keep users safe just incase they get into a accident this can reported easily.eg time and place (security)
+
+NFR9:The app should maintain frequent updates for users to see once they open the app like available pumps (maintainability) 
