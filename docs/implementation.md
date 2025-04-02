@@ -22,7 +22,8 @@ The project directory contains the necessary EV charging platform files: style.c
 
 On the backend, we obtain real-time data regarding EV charging stations from the Bristol Open Data API, ensuring that the information we present is both precise and current.
 
-The project is based on a client-server architecture, where the user interface (client) interacts with the server (the API) to access and display pertinent data. Thanks to the modular design, updating either the frontend or backend to incorporate new features or data is a straightforward process. CHECKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+The project is based on a client-server architecture, where the user interface (client) interacts with the server (the API) to access and display pertinent data. Thanks to the modular design, updating either the frontend or backend to incorporate new features or data is a straightforward process.
+
 ![Insert your component Diagram here](images/component.png)
 
 ## Bristol Open Data API
