@@ -5,7 +5,8 @@ The Bristol Open Data implementation is used to use charging information for ele
 
 ## Use case
 ## Project Structure 
-This is the folder organisation structure for our project, and it is required for many reasons. For example, a higher level of comprehension and effective organisation are two of the main advantages of employing an organised file structure. Team members can easily understand the project with a clearly defined folder structure, which guarantees clarity throughout the project by letting everyone know where to find particular files or resources
+This is the folder organisation structure for our project, and it is required for many reasons. For example, a higher level of comprehension and effective organisation are two of the main advantages of employing an organised file structure. Team members can easily understand the project with a clearly defined folder structure, which guarantees clarity throughout the project by letting everyone know where to find particular files or resources.
+
     └── index.html
     └── Maps.html
     └── Script.html
