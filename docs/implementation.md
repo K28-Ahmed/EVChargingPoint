@@ -58,7 +58,7 @@ Data analytics: Analysis of event data for optimization of charging infrastructu
 
 ![image](https://github.com/user-attachments/assets/14b2e690-a87c-4dee-b209-b180b5bb4f26)
 
-
+Kalid Ahmed
 
 
 
