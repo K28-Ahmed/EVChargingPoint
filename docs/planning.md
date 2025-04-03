@@ -31,7 +31,7 @@ Cost Information: Providing transparent information on any charges for the use o
 Reservation Feature: Users might appreciate booking a charging place in advance, especially in busy locations.
 
 ## Potential Risks
-A set of risks is needed for the successful execution of the project:
+It is important to discuss pottential risk. This is because it will help us identify any pottential issues that  may occur later. Eg.
 
 Charging Infrastructure Insufficiency: With increased EV consumers, the demand for charge stations might exceed the supply, and stations might get congested.
 
