@@ -1,7 +1,7 @@
 # Testing
 
 ## Test Plan
-TODO: Describe any manual and automated (unit) tests. Uniquely identify each test case. Include prerequisites and test data.
+ Describe any manual and automated (unit) tests. Uniquely identify each test case. Include prerequisites and test data.
 This is our testing for which we will carry out a test of how well this runs. Testing helps us identify what is going to go wrong and how we will be able to fix it. This is called risk mitigation. It is normally cheaper to correct defects in the software early in the development process than to do it later in the life cycle or after deployment. Testing, therefore, cuts down on the cost of software development since it saves on costly fixes after deployment and costly reworks in the software development process. It ensures that the software complies with the standards and regulations set in industrial requirements, more so in industries with very strict compliance requirements, such as health, finance, and aviation. Testing gives quality feedback to software developers and stakeholders. It allows teams to trace and track points of improvement in the software development process, hence optimization in time based on the outcome of the test and metric analysis. Testing also allows us to identify any issues our users will come across before allowing them to use the app. Failling to do this will mean that all the hard work and effort will go to waste as our app won't be really usefull.
 
 We wll test the app to make sure it works perfectly; as we need to make sure it works smoothly and fast. If we fail to have a smoothly running app with no issues and fail to identify any problems, the users will struggle to interact with the app. To make sure we deal with this swiftly, we will test:
@@ -10,7 +10,7 @@ UCID1 - Running the app - The app should run smoothly with no lag. If it fails t
 
 If we experience a failed test, that will mean that our app is not fully functionable for our users need.
 Test Runs
-TODO: For each test described above, indicate the current status. 
+: For each test described above, indicate the current status. 
 Create a requirements traceability matrix to validate the completeness of the product.
 T1-UCID1 - Run smoothly succesfully no issues - Our Userface should run smoothly - User Interface - Pass
 
@@ -30,4 +30,4 @@ T8 - UCID7- Index code - Functionable home page - A perfect page with clear layo
 
 
 
-TODO: Add rows for each test, current status is eg. pass/fail
+Mohamed Mansurnassir
