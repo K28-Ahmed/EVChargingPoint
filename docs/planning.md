@@ -49,8 +49,7 @@ Data Integration: The mobile app will be integrated with publicly available data
 Payment and Mapping Features: The software will offer a unified experience to the users to see station places and pay for charging if it is required. 
 
 These functions will support each other to let the app perform effectively, and that will serve the EV owners as they will get real-time information and minimize the time while searching for ideal charging stations.
-[
+![image](https://github.com/user-attachments/assets/6aaa022f-93ba-4877-b8ee-e7fa19914ed4)
 
-](https://github.com/K28-Ahmed/EVChargingPoint/blob/main/docs/UC.png?raw=true)
 
 Mohamed Mansurnassir
