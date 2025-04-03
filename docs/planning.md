@@ -50,6 +50,7 @@ Payment and Mapping Features: The software will offer a unified experience to th
 
 These functions will support each other to let the app perform effectively, and that will serve the EV owners as they will get real-time information and minimize the time while searching for ideal charging stations.
 
-![Insert your Context Diagram Here](images/context.png)
+![Insert your Context Diagram Here](images/context.png) 
+
 
 Mohamed Mansurnassir
