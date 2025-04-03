@@ -14,7 +14,9 @@ This is the folder organisation structure for our project, and it is required fo
     └── style.css
 ```
 The project directory contains the necessary EV charging platform files: style.css for web design management, index.html for the home page, Maps.html for station location display, Script.html for interactive functionality, and Search.html for station search.
+
 ## Software Architecture
+
  For this project is a structured to be modular, featuring distinct components for both the frontend and backend. For the frontend, we utilize HTML to organize the content, CSS to enhance its visual appeal, and JavaScript to introduce interactivity. This combination significantly influences the user experience and dictates the overall appearance and functionality of the application.
 
 On the backend, we obtain real-time data regarding EV charging stations from the Bristol Open Data API, ensuring that the information we present is both precise and current.
