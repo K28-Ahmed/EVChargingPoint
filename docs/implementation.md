@@ -5,8 +5,8 @@
 Electric vehicle charging information is utilized by means of the Bristol Open Data implementation. It provides informative data that makes it easy to locate charging points. It includes accurate details like the precise location, charger manufacturer, and whether the charger is located in a public car park. The dataset is in general reliable and accurate but may still have errors or outdated data. The issue can be eradicated by the daily checks and modifications to ensure correctness in the data.
 For ease of retrieval of information, we incorporated an API by Bristol Open Data to ensure smooth access to the third-party services. The UI has been developed in a way to ensure smooth ease and experience of the user in the case of charging points searching.
 
-
-## Project Structure
+## Use case
+## Project Structure 
 This is a structure of our project's folder organization, and there are numerous reasons why this is necessary. For instance, one of the primary benefits of using an organized file structure is that it provides a higher level of understanding and efficient organization. With a well-defined folder structure, team members can easily comprehend the project, so that everyone knows where to find specific files or resources, ensuring clarity throughout the project.
 ```
 └── 📁EV Charging Points
@@ -63,5 +63,3 @@ Data analytics: Analysis of event data for optimization of charging infrastructu
 
 
 
-# User guide
-TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
