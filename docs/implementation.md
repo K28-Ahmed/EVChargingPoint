@@ -12,7 +12,6 @@ This is the folder organisation structure for our project, and it is required fo
     └── Script.html
     └── Search.html
     └── style.css
-```
 The project directory contains the necessary EV charging platform files: style.css for web design management, index.html for the home page, Maps.html for station location display, Script.html for interactive functionality, and Search.html for station search.
 
 ## Software Architecture
@@ -58,6 +57,7 @@ Load Balancing Systems: It is a process of optimization of energy distribution, 
 Data analytics: Analysis of event data for optimization of charging infrastructure and user experience.
 
 ![image](https://github.com/user-attachments/assets/14b2e690-a87c-4dee-b209-b180b5bb4f26)
+
 
 
 
