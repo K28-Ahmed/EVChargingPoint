@@ -60,11 +60,6 @@ Data analytics: Analysis of event data for optimization of charging infrastructu
 
 ![Insert your component Diagram here](images/component.png)
 
-## Bristol Open Data API
-TODO: Document each query to Bristol Open Data
-
-![UML Class diagrams representing JSON query results](images/class1.png)
-TODO: Repeat as necessary
 
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
