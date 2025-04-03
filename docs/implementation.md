@@ -58,7 +58,7 @@ Load Balancing Systems: It is a process of optimization of energy distribution, 
 
 Data analytics: Analysis of event data for optimization of charging infrastructure and user experience.
 
-[docs/images/component1.png](https://github.com/K28-Ahmed/EVChargingPoint/blob/main/docs/images/component1.png)
+(docs/images/component1.png)
 
 
 # User guide
