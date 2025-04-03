@@ -1,15 +1,11 @@
 # Implementation
 
 ## Introduction
-
-Electric vehicle charging information is utilized by means of the Bristol Open Data implementation. It provides informative data that makes it easy to locate charging points. It includes accurate details like the precise location, charger manufacturer, and whether the charger is located in a public car park. The dataset is in general reliable and accurate but may still have errors or outdated data. The issue can be eradicated by the daily checks and modifications to ensure correctness in the data.
-For ease of retrieval of information, we incorporated an API by Bristol Open Data to ensure smooth access to the third-party services. The UI has been developed in a way to ensure smooth ease and experience of the user in the case of charging points searching.
+The Bristol Open Data implementation is used to use charging information for electric vehicles. Finding charging stations is made simple by the useful information it offers. It contains precise information such as the charger's manufacturer, exact location, and whether or not it is in a public parking lot. Although the dataset is generally accurate and dependable, it may still contain mistakes or out-of-date information. Daily checks and adjustments to guarantee data accuracy can eliminate the problem. We integrated a Bristol Open Data API to facilitate information retrieval and guarantee seamless access to third-party services. In the case of charging stations, the user interface has been designed to guarantee a seamless, easy, and enjoyable experience for the user.
 
 ## Use case
 ## Project Structure 
-This is a structure of our project's folder organization, and there are numerous reasons why this is necessary. For instance, one of the primary benefits of using an organized file structure is that it provides a higher level of understanding and efficient organization. With a well-defined folder structure, team members can easily comprehend the project, so that everyone knows where to find specific files or resources, ensuring clarity throughout the project.
-```
-└── 📁EV Charging Points
+This is the folder organisation structure for our project, and it is required for many reasons. For example, a higher level of comprehension and effective organisation are two of the main advantages of employing an organised file structure. Team members can easily understand the project with a clearly defined folder structure, which guarantees clarity throughout the project by letting everyone know where to find particular files or resources
     └── index.html
     └── Maps.html
     └── Script.html
