@@ -56,7 +56,8 @@ Issues|
 
 TODO: Your Use-Case diagram should include all use-cases.
 
-![Insert your Use-Case Diagram Here](images/use-case.png)
+![image](https://github.com/user-attachments/assets/9744436f-6b5e-4a76-ba7f-ad7186038084)
+
 
 ## Software Requirements Specification
 ### Functional requirements
