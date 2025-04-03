@@ -57,9 +57,9 @@ Notification Services: Create and send alert notifications about a change in the
 Load Balancing Systems: It is a process of optimization of energy distribution, based on real-time charging events.
 
 Data analytics: Analysis of event data for optimization of charging infrastructure and user experience.
-[
-[[[
-docs/images/component1.png](https://github.com/K28-Ahmed/EVChargingPoint/blob/f5944a1a1bf9dd51ce78412587c3054f38631560/docs/images/component1.png)](https://github.com/K28-Ahmed/EVChargingPoint/blob/main/docs/images/component1.png)](https://github.com/K28-Ahmed/EVChargingPoint/blob/main/docs/images/component1.png)
-](https://raw.githubusercontent.com/K28-Ahmed/EVChargingPoint/refs/heads/main/docs/images/component1.png)
+
+
+
+
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
