@@ -58,7 +58,9 @@ Load Balancing Systems: It is a process of optimization of energy distribution, 
 
 Data analytics: Analysis of event data for optimization of charging infrastructure and user experience.
 
-(images/component1.png)
+![image](https://github.com/user-attachments/assets/14b2e690-a87c-4dee-b209-b180b5bb4f26)
+
+
 
 
 # User guide
